@@ -1,0 +1,34 @@
+name: PlayTimeRank
+version: 3.4
+author: DevOFVictory
+
+main: de.devofvictory.playtime.Main
+
+commands:
+################################## User-Commands ###########################################
+   playtime:
+      description: Du kannst deine Spielzeit sehen
+   upgrade:
+      description: Wenn du genuegend Spielzeit besitzt kannst du deinen Rang Upgraden
+################################## Admin-Commands ##########################################
+   setplaytime:
+      description: Setze die Spielzeit von Spielern
+   playtimerankreload:
+      description: Reloade die Config
+   playtime Player:
+      description: Sehe die Spielzeit von anderen
+permissions: 
+################################## User-Permissions ########################################
+   playtimerank.user.playtime:
+      description: Erlaubt dem Spieler /playtime durchzufuehren
+   playtimerank.user.upgrade:
+      description: Erlaubt dem Spieler seinen Rang abzugraden
+   playtimerank.playtime.own:
+      decription: Erlaubt dem Spieler seine Spielzeit zu sehen
+################################## Admin-Permissions ########################################
+   playtimerank.admin.setplaytime:
+      description: Erlaubt dem Admin Die Spielzeit von Spielern zu veraendern
+   playtimerank.admin.reload:
+      description: Erlaubt dem Admin das Plugin zu reloaden
+   playtimerank.playtime.other:
+      description: Erlaubt dem Admin fremde Spielzeiten zu sehen

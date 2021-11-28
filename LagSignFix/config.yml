@@ -1,0 +1,55 @@
+#Plugin by DevOFVictory
+
+#Permissions:
+# - CrashSignFix.admin.notify = Get notified if a Player places a Lag/Crash Sign
+# - CrashSignFix.admin.reload = Allow the Player to reload the Config
+# - CrashSignFix.admin.bypass = Bypass the Check and allow a Player to place Crash Signs again
+
+#Maximale erlaubte Zeichen pro Reihe!
+#Standart: 50
+maxAllowedCharCount: 50
+
+#Diese Nachricht wird dem spieler geschickt, wenn er keine Rechte für /reloadCrashSignFix hat.
+#Standart: "&cYou are not allowed to execute this command!"
+noPermissionMessage: "&cDu darfst diesen Command nicht nutzen!"
+
+#Diese Funktion erlaubt dem Spieler mit der Permission CrashSignFix.admin.bypass um den Fix zu umgehen.
+#Standart: false
+allowBypass: false
+
+#Aktiviere dies um dem Spieler eine Nachricht auszugeben!
+#Standart: true
+informPlayer: true
+#Diese Nachricht wird dem Spieler geschickt!
+#Standart: "&cYou are not allowed to use Lag Signs on this Server!"
+playerInformationMessage: "&cBitte benutz doch keine Lag-Sign bei uns... &4<3 &r- Plugin by &7DevOFVictory "
+
+#Befehl in der Console ausgeben, falls ein Spieler geflaggt wird.
+#Standart: false
+executeCommandOnAbuse: false
+#Dieser Befehl wird in der Konsole ausgeführt!
+#Standart: "kick <Player> &cDon't do that! That's not friendly."
+commandToExecute: "kick <Player> &cEy! Keine Lag-Signs bei uns!."
+
+#Aktivieren um einem Admin mit der Permission 'CrashSignFix.admin.notify' eine nachricht auszugeben.
+#Standart: true
+sendMessageToAdmins: true
+#Diese Nachricht wird dem Admin geschickt! 
+#Standart: "&c<Player> tried to place a Lag Sign. Char count: &6<Char Count>"
+messageToSendToAdmins: "&c<Player> hat versucht ein LagSign zu plazieren! Zeichenlänge: &6<Char Count>"
+
+#Aktivieren um das Lag-Sign zu ändern.
+#Standart: true
+replaceSignTexts: true
+#This is the Text for Line 1
+#Standart: "You are"
+line1Text: "You are"
+#This is the Text for Line 2
+#Standart: "not allowed"
+line2Text: "not allowed"
+#This is the Text for Line 3
+#Standart: "to do"
+line3Text: "to do"
+#This is the Text for Line 4
+#Standart: "this here!"
+line4Text: "this here!"

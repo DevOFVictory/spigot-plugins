@@ -1,0 +1,19 @@
+name: LagSignFix
+version: 1.2
+author: DevOFVictory
+main: de.devofvictory.crashSignFix.Plugin
+
+commands:
+   reloadCrashSignFix:
+      description: Laed das plugin neu!
+
+permissions:
+   CrashSignFix.admin.notify:
+      description: Erlaubt dem Spieler informiert zu werden.
+      default: op
+   CrashSignFix.admin.reload:
+      description: Erlaubt dem Spieler die Config neu zu laden.
+      default: op
+   CrashSignFix.admin.bypass:
+      description: Erlaubt dem Spieler den fix zu bypassen.
+      default: op

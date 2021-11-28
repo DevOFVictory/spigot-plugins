@@ -1,0 +1,64 @@
+#Thanks for using my Plugin to protect your Server!
+#
+#By using this plugin you made a big step protecting your Server from Hackers
+#Other Plugins you should use:
+# - NCP | or other kind of AntiCheat
+# - CreativeItemControl | if you have a Creative Server
+# - CustomPayloadFixer | for protecting your Server from being crashed
+#
+#Use '&' for Color Codes
+#Use '&&' for '&'
+#
+#Permissions:
+# - CrashSignFix.admin.notify = Get notified if a Player places a Lag/Crash Sign
+# - CrashSignFix.admin.reload = Allow the Player to reload the Config
+# - CrashSignFix.admin.bypass = Bypass the Check and allow a Player to place Crash Signs again
+
+#This is the max allowed char count per line
+#default: 50
+maxAllowedCharCount: 50
+
+#This message will get Displayed if the Player does not have the permission to execute the /reloadCrashSignFix
+#default: "&cYou are not allowed to execute this command!"
+noPermissionMessage: "&cYou are not allowed to execute this command!"
+
+#This allows Player with the permission CrashSignFix.admin.bypass to bypass the Check
+#default: false
+allowBypass: false
+
+#Enable this to send a message to the Player
+#default: true
+informPlayer: true
+#This is the Message which is sent to the Player
+#default: "&cYou are not allowed to use Lag Signs on this Server!"
+playerInformationMessage: "&cYou are not allowed to use Lag Signs on this Server!"
+
+#Enable this to let the Console execute a Command if a Player places a Crash Sign
+#default: false
+executeCommandOnAbuse: false
+#This is the Command which gets executed
+#default: "kick <Player> &cDon't do that! That's not friendly."
+commandToExecute: "kick <Player> &cDon't do that! That's not friendly."
+
+#Enable this to send a Information to Players with the permission 'CrashSignFix.admin.notify'
+#default: true
+sendMessageToAdmins: true
+#This is the Message which gets send to the Players
+#default: "&c<Player> tried to place a Lag Sign. Char count: &6<Char Count>"
+messageToSendToAdmins: "&c<Player> tried to place a Lag Sign. Char count: &6<Char Count>"
+
+#Enable this to replace the Lag Sign texts with something else
+#default: true
+replaceSignTexts: true
+#This is the Text for Line 1
+#default: "You are"
+line1Text: "You are"
+#This is the Text for Line 2
+#default: "not allowed"
+line2Text: "not allowed"
+#This is the Text for Line 3
+#default: "to do"
+line3Text: "to do"
+#This is the Text for Line 4
+#default: "this here!"
+line4Text: "this here!"

@@ -1,0 +1,19 @@
+name: CrashSignFix
+version: 1.0
+author: Sponged
+main: net.Sponged.crashSignFix.Plugin
+
+commands:
+  reloadCrashSignFix:
+   description: Reload the Config
+   
+permissions:
+  CrashSignFix.admin.notify:
+   description: Allows the Player to get notified
+   default: op
+  CrashSignFix.admin.reload:
+   description: Allows the Player to reload the Config
+   default: op
+  CrashSignFix.admin.bypass:
+   description: Allow a Player to bypass the Check
+   default: op
