@@ -1,0 +1,14 @@
+name: SecurityRecoded
+version: 1.0
+author: DevOFVictory
+website: devofvictory.epizy.com
+
+main: de.devofvictory.sr.main.Main
+
+commands:
+   trust:
+      description: Command
+      
+permissions:
+   SecurityRecoded.cmd.trust:
+      description: Traue einem Spieler

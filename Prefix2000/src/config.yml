@@ -1,0 +1,122 @@
+# Prefix2000 Plugin by DevOFVictory
+# Wichtig: 
+#  - Zur Benutzung von Farbcoes kannst du '&' benutzen.
+#  - Um ein normales '&' zu schreiben nutze "&&"!
+#  - Gebe die Werte genau ein Leerzeichen nach dem Key an.
+#  - Nutze beim Formait %msg% für die Nachricht und %prefix% für den prefix.
+
+#  - BITTE AUF GAR KEINEN FALL DEN TABPREFIX LÄNGER ALS 16 ZEICHEN MACHEN!!!!!!!
+
+#  - Das Plugin darf nicht gegen meine Einstimmung weitergegeben werden.
+
+
+# Bei Fragen -> Email: DevOFVictory@gmail.com
+
+Scoreboard:
+#Name of the scoreboard
+  title: '&cScoreBoard'
+#Diese Platzhalter kannst du ohne die PlaceholderAPI benutzen:
+#{Player} - Spielername
+#{Online} - Anzahl der Onlinen Spieler
+#{MaxPlayers} - Maxiale Server-Slots
+#{Group} - PremissionsEx Gruppe (Vault benötigt)
+#{Money} Geld vom Spieler (Essentials benötigt)
+#Die restlichen Variablen kannst du 1 zu 1 aus der PHAPI übernehmen!
+
+  text: 
+    - '&aName &7:'
+    - '{Player}'
+    - ''
+    - '&eGeld &7:'
+    - '{Money}'
+    - ''
+    - '&cRang &7:'
+    - '{Group}'
+    - ''
+    - '&dOnline &7:'
+    - '&5{Online}&8/&7{MaxPlayers}'
+    - ''
+    - '&c------------------------------'
+    - '&cPlugin by DevOFVictory'
+    - '&c------------------------------'
+
+Settings:
+#World list, where will Scoreboard disabled.
+  World-Blacklist:
+    - world1
+#Refresh rate of Scoreboard in seconds.
+  Refresh-rate: 7
+#Here you can customize messages.
+Messages:
+ ScoreBoard-Hide: '§f(§aScoreBoard§f) §7§ §cScoreBoard wurde versteckt.'
+ ScoreBoard-Show: '§f(§aScoreBoard§f) §7§ §eScoreBoard wird nun angezeigt'
+ No-Permission: '§f(§aScoreBoard§f) §7§ §cKeine Rechte.'
+ Config-Reload: '§f(§aScoreBoard§f) §7§ §aConfig wurde erfolgreich aktualisiert'
+ ScoreBoard-Toggle-Disabled-World: '§f(§aScoreBoard§f) §7 §cIn dieser Welt wurde das Scoreboard deaktiviert.'
+ #Permissions:
+ #sb.toggle - Allow to use /sb toggle
+ #sb.reload - Allow to use /sb reload
+ 
+
+
+
+Config:
+  Ranks:
+# Das sind die normalen Spieler!
+    Users:
+      Default:
+        tabprefix: "&8LOCKED | &e"
+        chatprefix: ""
+        text: "&7"
+      Spieler:
+        tabprefix: "&2Spieler &8| &e"
+        chatprefix: "&2Spieler &8| &e"
+        text: "&7"
+      Premium:
+        tabprefix: "&6Premium &8| &e"
+        chatprefix: "&6Premium &8| &e"
+        text: "&7"
+      Ultra:
+        tabprefix: "&bUltra &8| &e"
+        chatprefix: "&bUltra &8| &e"
+        text: "&7"
+      Champion:
+        tabprefix: "&aChamp &8| &e"
+        chatprefix: "&aChampion &8| &e"
+        text: "&7"
+      Legende:
+        tabprefix: "&5Legende &8| &e"
+        chatprefix: "&6&k-&5Legende&6&k-&r &8| &e"
+        text: "&7"
+
+# Das sind die Teammitglieder!
+    Team:
+      Moderator:
+        tabprefix: "&e&lMod &8| &6"
+        chatprefix: "&e&lModerator &8| &6"
+        text: "&a&l"
+      Builder:
+        tabprefix: "&2&lBuild &8| &a"
+        chatprefix: "&2&lBuilder &8| &a"
+        text: "&a&l"
+      Developer:
+        tabprefix: "&3&lDev &8| &b"
+        chatprefix: "&3&lDeveloper &8| &b"
+        text: "&a&l"
+      Admin:
+        tabprefix: "&c&lAdmin &8| &c"
+        chatprefix: "&c&lAdmin &8| &c"
+        text: "&a&l"
+      Owner:
+        tabprefix: "&4&lOwner &8| &c"
+        chatprefix: "&4&lOwner &8| &c"
+        text: "&a"
+
+# Das ist der benutzerdefinierte Prefix
+    Custom:
+      tabnamecolor: "&9"
+      chatnamecolor: "&9"
+      text: "&7"
+  Settings:
+    clearlinesatteams: true
+      

@@ -1,0 +1,21 @@
+name: Prefix2000
+version: 4.4
+author: DevOFFvictory
+
+main: de.devofvictory.prefix2000.main.Main
+
+commands:
+   customprefix:
+      description: Setze einen individuellen Prefix
+   rlprefix:
+      description: Reloade die Config
+   setlastsbline:
+      description: Setze die Letzt Zeile vom Scoreboard neu
+
+permissions:
+   prefix.reload:
+      description: Erlaubt dem Admin die Config zu reloaden
+   prefix.admin.setcustomprefix:
+      description: Erlaubt dem Admin benutzerdefinierte Prefixe zu setzen
+   prefix.admin.setlastsbline:
+      description: Erlaubt dem Admin die letzte Zeile im Scoreboard neu zu setzen

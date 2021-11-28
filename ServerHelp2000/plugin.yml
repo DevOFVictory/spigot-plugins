@@ -1,0 +1,8 @@
+name: ServerHelp2000
+version: 1.2
+author: DevOFVictory
+
+main: de.devofvictory.serverhelp.main.Main
+
+commands:
+  serverhelp:

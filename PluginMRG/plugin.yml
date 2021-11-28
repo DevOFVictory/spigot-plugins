@@ -1,0 +1,6 @@
+name: PluginMRG
+author: DevOFVictory
+version: 1.0
+main: de.devofvictory.pluginmanager.Main
+commands:
+  plugin:

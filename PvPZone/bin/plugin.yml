@@ -1,0 +1,9 @@
+name: PvPZone
+author: DevOFVictory
+version: 1.0
+depend: [WorldEdit]
+
+main: de.devofvictory.pvpzone.main.PvPZone
+
+commands:
+   pvpzone:
