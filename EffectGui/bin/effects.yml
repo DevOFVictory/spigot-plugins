@@ -1,0 +1,92 @@
+# All Effect Types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# All Icons Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Currency: ESSENTAILS_MONEY/EXPERIENCE_POINTS
+
+# The numbers have to start at 0!  
+
+# EffectGui plugin by DevOFVictory
+
+
+0:
+   Slot: 0
+   Icon: 'FEATHER'
+   Name: '&9Movement'
+   Description: '&eHere are all effects that are usable for movement.'
+   Effects:
+      0:
+         EffectType: 'JUMP'
+         UniqueName: 'jump_1'
+         Duration: 600
+         Price: 100
+         Currency: 'ESSENTAILS_MONEY'
+         Icon: 'SLIME_BALL'
+         Name: '&a&lJump Boost'
+         LevelPrices: '100, 210, 353, 400, 555'
+         Lore:
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+            - '&aJump as high as a slime can!'
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+      1:
+         EffectType: 'SPEED'
+         UniqueName: 'speed_1'
+         Duration: -1
+         Price: 500
+         Currency: 'ESSENTAILS_MONEY'
+         Icon: 'FEATHER'
+         Name: '&9&lSpeed'
+         LevelPrices: '100, 200, 300'
+         Lore:
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+            - '&9Faster, faster here we go!'
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+1:
+   Slot: 4
+   Icon: 'DIAMOND_SWORD'
+   Name: '&cFighting'
+   Description: '&eHere is all you need to fight.'
+   Effects:
+      0:
+         EffectType: 'INCREASE_DAMAGE'
+         UniqueName: 'strengh_1'
+         Duration: 600
+         Price: 100
+         Currency: 'ESSENTAILS_MONEY'
+         Icon: 'IRON_SWORD'
+         Name: '&6§lStrengh'
+         LevelPrices: '100, 210, 353, 400, 555, 600'
+         Lore:
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+            - '&aIncrease your attack damage!'
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+2:
+   Slot: 8
+   Icon: 'APPLE'
+   Name: '&4Healing'
+   Description: '&eHere is healing stuff.'
+   Effects:
+      0:
+         EffectType: 'REGENERATION'
+         UniqueName: 'regeneration_1'
+         Duration: 600
+         Price: 100
+         Currency: 'ESSENTAILS_MONEY'
+         Icon: 'OAK_SAPLING'
+         Name: '&6§lRegeneration'
+         LevelPrices: '100, 210, 353, 400, 555'
+         Lore:
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+            - '&aGet back into live!'
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+      1:
+         EffectType: 'SATURATION'
+         UniqueName: 'saturation_1'
+         Duration: 600
+         Price: 100
+         Currency: 'ESSENTAILS_MONEY'
+         Icon: 'COOKED_BEEF'
+         Name: '&6§lSaturation'
+         LevelPrices: '100, 210, 353, 400, 555'
+         Lore:
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='
+            - '&aAre you hungry?'
+            - '&8=-=-=-=-=-=-=-=-=-=-=-=-=-='

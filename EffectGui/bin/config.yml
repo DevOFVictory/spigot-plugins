@@ -1,0 +1,33 @@
+###################################################################
+# ,------. ,---. ,---.               ,--.   ,----.           ,--. #
+# |  .---'/  .-'/  .-' ,---.  ,---.,-'  '-.'  .-./   ,--.,--.`--' #
+# |  `--, |  `-,|  `-,| .-. :| .--''-.  .-'|  | .---.|  ||  |,--. #
+# |  `---.|  .-'|  .-'\   --.\ `--.  |  |  '  '--'  |'  ''  '|  | #
+# `------'`--'  `--'   `----' `---'  `--'   `------'  `----' `--' #
+# by DevOFVictory										08/13/20 #
+###################################################################
+
+# All Animation Types: FADE_IN_LEFT_TO_RIGHT, FADE_IN_TOP_TO_BUTTOM, RANDOM_SPREAD, SLOT_FOR_SLOT, GROWING_BARS, GROWING_BARS
+# All Animation Sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+
+Prefix: '§8· §7Effect§eGui §8· §a'
+
+Gui:
+   Rows: 3
+   Title: '§8· §7Effect§eGui §8· §a'
+   
+Animation:
+   Enabled: true
+   Type: 'FADE_IN_LEFT_TO_RIGHT'
+   Sound: 'ENTITY_CHICKEN_EGG'
+   Ticks: 1
+   
+   
+Messages:
+   NoPerms: '§cYou dont have enough permissions to perform this command!'
+   Success: '§aYou bought successfully the §2%effect% §aeffect for §2%price% %currency%§a.'
+   NoMoney: '§cYou dont have enough %currency% to buy this effect!'
+   ToggleNonInfinite: '§cYou can only toggle infinite effects!'
+   ConfigReloaded: '§aConfig file was successfully reloaded!'
+
+
