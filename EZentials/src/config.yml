@@ -1,0 +1,77 @@
+Ezentials:
+   Config:
+      Jumppads:
+         enable: true
+      Language: ""
+      AutoUpdater:
+         sendUpdateMessageOnJoin: true
+      Messages:
+         noPermissions: "&cHier fuer hast du leider nicht genug Rechte :( \n&8>> &f(&6%permission%&f)" #Du kannst %permission% benutzen, fuer das jeweilige Recht!
+         autoUpdater:
+            versionUptoDate: "&aDie Version vom Plugin ist auf dem neustem Stand!"
+            versionOutofDate: "&eEs ist eine neue Version verfuegbar vom Plugin! \n &6%link%" #Du kannst %link% benutzen, fuer den Downloadlink des Plugins
+            conectionError: "&4ERROR: &cDas Plugin konnte keine Verbindung zu SpigotMC.org aufbauen!"
+         pluginHelp:
+            ezentials_help: "Rufe diese Hilfe auf!"
+            ezentials_versionCheck: "Ueberpruefe nach Updates!"
+            freeze: "Friere einen Spieler ein!"
+            giveAll: "Gebe das Item in deiner Hand jedem Spieler!"
+            build: "Nehme/Gebe einem Spieler die Baurechte!"
+            rename: "Bennene das Item in deiner Hand um!"
+            setlore: "Setze die Beschreibung vom Item in deiner Hand!"
+            sendLine: "Sende eine Zeile ohne Prefix an den/die Spieler!"
+            rank: "Setze den Rang vom Spieler!"
+            asudo: "Fuehre Befehle und Chatnachrichten von anderen Spielern mit bestimmten Rechten aus"
+            toggleJumpPads: "(De-)aktiviere Jumppads auf dem Server!"
+         Commands:
+            advancedSudo:
+               playerNotOnline: "&cDer Spieler &6%player% &cist nicht online!" # %player%
+               notAllowedToPerformOnTarget: "&cDu darfst diesen Befehl nicht an diesen Spieler ausuf���hren!"
+               cmdPerformedSucsessful: "&aDer Befehl wurde erfolgreich von &6%player% &aausgef���hrt!" # %player%
+               msgPewrformedSucsessful: "&aDie Nachricht wurde erfolgreich von &6%player% &ageschrieben!" #%player%
+               worgUsage: "&cBenutze &6/asudo <Spieler> <OP/NONE/Permission> <Nachricht/Befehl>"
+            build:
+               youCanBuild: "&aDu kannst nun wieder bauen!"
+               youCantBuild: "&cDu kannst nun nicht mehr bauen!"
+               targetCanBuild: "&a%player% kann nun wieder bauen!" #%player%
+               targetCantBuild: "&c%player% kann nun nicht mehr bauen!" # %player%
+               targetNotOnline: "&cDer Spieler &6%player% &cist nicht online!" # %player%
+            freeze:
+               youHaveBeenUnfreezed: "&aDu wurdest wieder aufgetaut!"
+               youHaveBeenFreezed: "&cDu wurdest eingefroren"
+               targetHasBeenUnfreezed: "&c%player% wurde aufgetaut" # %player%
+               targetHasBeenFreezed: "&a%player% wurde eingefroren" # %player%
+               targetNotOnline: "&cDer Spieler &6%player% &cist nicht online!" # %player%
+               wrongUsage: "&cNutze &6/freeze <Spieler>&c!"
+            giveAll:
+               youHaveGaveToAll: "&aDu hast jedem Spieler das Item &2%item% &6%amount% &amal gegeben!" # %item% %amount%
+               youGetAnItem: "&aJeder Spieler hat das Item &2%item% &6%amount%% &amal erhalten!"
+               noItemInHand: "&cDu hast kein Item in der Hand!"
+               senderNotPlayer: "&cFuer diesen Command musst du ein Spieler sein!"
+            rename:
+               nameChanged: "&aDer Name vom Item wurde zu &6%newName% &age���ndert!" # %newName%
+               noItemInHand: "&cDu hast kein Item in der Hand!"
+               senderNotPlayer: "&cFuer diesen Command musst du ein Spieler sein!"
+               wrongUsage: "&cBenutze &6/rename <Name>&c!"
+            setLore:
+               loreChanged: "&aDie Item-Beschreibung wurde zu &5%newLore% &age���ndert!" # %newLore%
+               noItemInHand: "&cDu hast kein Item in der Hand!"
+               senderNotPlayer: "&cFuer diesen Command musst du ein Spieler sein!"
+               wrongUsage: "&cBenutze &6/setlore <Lore>&c!"
+            sendLine:
+               lineSendedToAll: "&aZeile wurde an alle Spieler gesendet!"
+               lineSendedToTarget: "&aZeile wurde an &6%player% &agesendet!" #%player%
+               targetNotOnline: "&cDer Spieler &6%player% &cist nicht online!" # %player%
+               wrongUsage: "&cBenutze &6/sendline <*/Spieler> <Nachricht>&c!"
+            toggleJumpPads:
+               enabled: "&aDie Jumppads wurden &2aktiviert!"
+               disabled: "&cDie Jumppads wurden &4deaktiviert!"
+         JumpPads:
+            placed: "&eJ&6u&cm&4p&aP&2a&bd &aerfolgreich gesetzt!"
+            breaked: "&eJ&6u&cm&4p&aP&2a&bd &cerfolgreich zerst���rt!"
+         Freeze:
+            youAreFreezed: "&cDu bist eingefroren!"
+         PlaceHolders:
+            all:
+               replaced: "&aIn dem Befehl wurde jedes ALL durch alle Spieler ersetzt!"
+               wrongUsage: "&cBenutze statt &eALL &aALL(YES/NO) &7<- Willst du auch dabei sein?"

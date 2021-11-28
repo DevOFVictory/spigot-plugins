@@ -1,0 +1,103 @@
+name: EZentials
+version: 3.0
+author: DevOFVictory
+website: devofvictory.epizy.com
+main: de.devofvictory.ezentials.main.Main
+
+commands:
+   ezentials:
+      description: EZentials Main Command
+   giveall:
+      description: Gebe jedem Spieler das Item in deiner Hand
+   freeze:
+      description: Friere einen Spieler ein
+   build:
+      description: Gebe und neheme einem Spieler seine Baurechte
+   asudo:
+      description: Fuehre Befehle und Chatnachrichten von anderen Spielern mit bestimmten Rechten aus
+   rename:
+      description: Aendere den Namen von dem Item in deiner Hand
+   setlore:
+      description: Setze die Beschreibung vom Item in deiner Hand
+   sendline:
+      description: Schreibe einen text ohne Prefix in den Chat
+   bungee:
+      description: Erhalte eine BungeeCord Fake Nachricht
+   server:
+      description: Erhalte eine BungeeCord - Server Fake Nachricht
+   delayedreload:
+      description: Reloade den Server verzoegert
+   rank:
+      description: Vergebe einen Rang
+   togglejumppads:
+      description: Schalte Jumpads an bzw. aus
+   ping:
+      description: Sehe den Ping von anderen oder die selbst
+   afk:
+      description: Markiere dich als abwesend
+   ezitems:
+      description: Bekomme EZentials Items
+   maintenance:
+      description: Schalte Wartungen an/aus
+   ip:
+      description: Sehe die IP von dir/anderen
+      
+      
+permissions:
+   ezentials.cmd.giveall:
+      description: Erlaubt dir den /giveall Befehl zu nutzen
+   ezentials.cmd.freeze:
+      description: Erlaubt dir den /freeze Befehl zu nutzen
+   ezentials.cmd.build:
+      description: Erlaubt dir den /build Befehl zu nutzen
+   ezentials.cmd.sendline:
+      description: Erlaubt dir den /sendline Befehl zu nutzen
+   ezentials.cmd.asudo:
+      description: Erlaubt dir den /asudo Befehl zu nutzen
+   ezentials.asudo.bypass:
+      description: Bei dir kann man den Befehl /asudo nicht nutzen
+# Note: Mit der Metadata "ezentials.asudo.bypasstheperm" ist dies trotzdem moeglich! Nur im Notfall Benutzen!
+   ezentials.cmd.rename:
+      description: Erlaubt dir den /rename Befehl zu nutzen
+   ezentials.cmd.setlore:
+      description: Erlaubt dir den /setlore Befehl zu nutzen
+   ezentials.cmd.delayedreload:
+      description: Erlaubt dir den /delayedreload Befehl zu nutzen
+   ezentials.cmd.togglejumppads:
+      description: Erlaubt dir den /togglejumppads Befehl zu nutzen
+   ezentials.jumppad.create:
+      descriptipn: Erlaubt dir Jumppads zu erstellen
+   ezentials.jumppad.delete:
+      descriptipn: Erlaubt dir Jumppads zu zerstoeren
+   ezentials.jumppad.use:
+      description: Erlaubt dir Jumppads zu nutzen
+   ezentials.ping.own:
+      description: Erlaubt dir deinen Ping zu sehen
+   ezentials.ping.other:
+      description: Erlaubt dir den Ping von anderen Spielern zu sehen
+   ezentials.placeholder.all:
+      description: Erlaubt dir den Platzhalter ALL zu nuten
+   ezentials.cmd.rank:
+      description: Erlaubt dir den /rank Befehl zu nutzen
+   ezentials.setrank.Locked:
+      description: Hiermit kannst du den Locked Rang vergeben
+   ezentials.setrank.Spieler:
+      description: Hiermit kannst du den Spieler Rang vergeben
+   ezentials.setrank.Spieler:
+      description: Hiermit kannst du den Spieler Rang vergeben
+   ezentials.setrank.Ultra:
+      description: Hiermit kannst du den Ultra Rang vergeben
+   ezentials.setrank.Champion:
+      description: Hiermit kannst du den Champion Rang vergeben
+   ezentials.setrank.Legende:
+      description: Hiermit kannst du den Legende Rang vergeben
+   ezentials.setrank.Builder:
+      description: Hiermit kannst du den Builder Rang vergeben
+   ezentials.setrank.Dev:
+      description: Hiermit kannst du den Developer Rang vergeben
+   ezentials.setrank.Moderator:
+      description: Hiermit kannst du den Moderator Rang vergeben
+   ezentials.setrank.Admin:
+      description: Hiermit kannst du den Admin Rang vergeben
+   ezentials.setrank.Owner:
+      description: Hiermit kannst du den Owner Rang vergeben
