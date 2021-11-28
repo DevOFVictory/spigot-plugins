@@ -1,0 +1,15 @@
+name: ChatSupport
+version: 1.0
+author: DevOFvictory
+
+main: de.devofvictory.chatsupport.main.Main
+
+commands:
+   chatsupport:
+      description: Schicke eine Support Anfrage
+      
+permissions:
+   chatsupport.user.use:
+      description: Erlaubt dem Spieler Support Anfragen zu schicken
+   chatsupport.supporter.accept:
+      description: Erlaubt dem Supporter die Anfrage anzunehmen

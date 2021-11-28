@@ -1,0 +1,9 @@
+name: BuyPerms
+version: 1.0
+author: DevOFvictory
+
+main: de.devofvictory.buyperms.main.Main
+
+commands:
+   buyperms create:
+      description: Verwalte das Plugin

@@ -1,0 +1,33 @@
+name: ChatManager
+version: 1.0
+author: DevOFVictory
+
+main: de.devofvictory.cm.main.Main
+
+commands:
+   clearchat:
+      description: Leere den Chat
+   cmdspy:
+      description: Aktiviere/Deaktiviere den CommandSpy
+   globalmute:
+      description: Aktiviere/Deaktiviere den globalen Chat
+      
+permissions:
+   chatmanager.teamchat.read:
+      description: Lese Teamnachrichten
+   chatmanager.teamchat.send:
+      description: Screibe Teamanchrichten
+   chatmanager.clearchat.bypass:
+      description: Ungehe den globalen ChatClear
+   chatmanager.clearchat.own:
+      description: Leere deinen eigenen Chat
+   chatmanager.clearchat.other:
+      description: Leere den Chat von anderen
+   chatmanager.clearchat.all:
+      description: Leere den globalen Chat
+   chatmanager.cmdspy.use:
+      description: Benutze den Command-Spy
+   chatmanager.globalmute.use:
+      description: Bunutze den GlobalMute Command
+   chatmanager.globalmute.bypass:
+      description: Umgehe den globalen Mute
