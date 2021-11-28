@@ -84,3 +84,6 @@ Hiermit kann ein Survival Server erweitert werden, oder das Überlebensmodus Kon
 
 #### TabModifier1.13 ⭐⭐⭐⭐
 Damit lässt sich die Tabliste der Spieler verändern über Client Packets.
+
+#### WarGame ⭐⭐⭐⭐⭐
+Dies ist ein vollständiges Minispiel, basierend auf dem Spielprinzip von Fortnite. (Damals im Trend...) Es ist zwar nicht sauber im Quellcode implementiert, dennoch ein sehr spaßiger Modus.
