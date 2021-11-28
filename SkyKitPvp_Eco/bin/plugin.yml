@@ -1,0 +1,11 @@
+name: SkyKitPvpEco
+version: 1.0
+author: DevOFVictory
+main: de.devofvictory.skykitpvp.eco.main.EcoMain
+
+commands:
+   eco: 
+      description: Verwalte die Coins der Spieler
+   coins:
+      description: Erhalte deine oder andere Coins
+      aliases: [money]
