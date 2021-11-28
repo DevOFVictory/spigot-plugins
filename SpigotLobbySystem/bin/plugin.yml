@@ -1,0 +1,31 @@
+name: SpigotLobbySystem
+version: 1.0
+author: DevOFVictory
+
+main: de.devofvictory.spigotlobbysystem.main.Main
+
+commands:
+  lobby:
+    description: Its the Main Command of this Plugin
+
+
+######################################## TO Do's ###################################
+#
+# Give Items on join                       X
+# Lobby Compass open                       X
+# player hider                             
+# social media                            
+# setwarp                                  
+# setspawn
+# jumppads
+# settings (jumppads, ...)
+# no build
+# hub + lobby command
+# gadged
+# better inv on sneak
+# item click on held
+# welcome message
+# build command
+# 
+#
+#

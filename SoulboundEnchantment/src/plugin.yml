@@ -1,0 +1,11 @@
+name: SoulboundEnchantment
+version: 1.0
+author: DevOFVictory
+main: de.devofvictory.soulboundenchantment.main.SoulboundEnchantment
+
+api-version: 1.13
+load: STARTUP
+soft-depend: [TradePlus]
+
+commands:
+   soulbound:
