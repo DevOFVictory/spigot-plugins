@@ -1,0 +1,8 @@
+name: AntiPluginView2
+version: 3.4
+main: de.devofvictory.antitab.main.AntiCommandTab
+authors: [libraryaddict, sgtcaze]
+depend: [ProtocolLib]
+commands:
+   act:
+      description: Reload the config.

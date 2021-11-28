@@ -1,0 +1,5 @@
+name: BuildServerSystem
+version: 1.0
+author: DevOFVictory
+
+main: de.devofvictory.builder.main.Main

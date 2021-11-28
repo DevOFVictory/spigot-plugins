@@ -1,0 +1,13 @@
+name: BiomicPlots
+version: 2.3
+author: DevOFVictory
+
+main: de.devofvictory.biomicploz.main.Main
+load: POSTWORLD
+depends: [Vault, Multiverse-Core, EpicWorldGenerator]
+
+commands:
+   gs:
+     aliases: [plot, p, grundstueck]
+   powermode:
+   warnedrestart:

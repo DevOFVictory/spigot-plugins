@@ -1,0 +1,9 @@
+name: Adventskalender
+version: 1.0
+author: DevOFVictory
+
+main: de.devofvictory.ak.main.Main
+
+commands:
+   adventskalender:
+      description: Oeffne den Adventskalender
