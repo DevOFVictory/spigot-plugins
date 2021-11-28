@@ -1,0 +1,24 @@
+name: WarGame
+version: 3.0
+author: DevOFVictory
+main: de.devofvictory.wargame.main.Main
+
+depend: [CuodeXMinigameTables]
+
+commands:
+  spawnloot:
+    description: Spwne die LootKisten
+  waritems:
+     description: Oeffne das WarItems Inventar
+  infinitymode:
+     description: DeAktiviere den infinitymode
+  start:
+     description: Starte das Spiel
+  settime:
+     description: Verstelle die Spielzeit
+  trust:
+     description: Vertraue einem anderem Spieler
+  stats:
+     description: Siehe deine Statistiken ein
+  warnedrestart:
+     description: Starte den Server neu
