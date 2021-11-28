@@ -1,6 +1,6 @@
 # Spigot Plugins (2016-2020)
-> Here are some of my old spigot plugins with a little description. The most of them are older than 3 years, so my coding skills wasn't that advanced...
-## Very short descriptions:
+> Here are some of my old spigot plugins with a little description. The most of them are older than 3 years, so my coding skills wasn't that advanced... For this reason I decided to rate my own projects with 1-5 stars, so you dont have to take a look on every of these projects. :)
+## Very short german descriptions:
 #### Adventskalender ⭐
 Jeden Tag kann ein Spieler eine Tür öffnen und erhält ein Geschenk.
 
