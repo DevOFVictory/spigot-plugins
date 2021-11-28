@@ -1,0 +1,9 @@
+name: ChiliItems
+version: 1.2.3
+main: de.chilipro.chiliitems.main.Main
+author: ChiliPro
+
+commands:
+   tpr:
+      description: Erlaubt einem Spieler Teleport Anfragen abzulehnen oder anzunehmen!
+      aliases: [teleportrequest, tprequest]

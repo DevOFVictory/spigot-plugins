@@ -1,0 +1,8 @@
+name: ChiliLobby
+version: 2.0
+author: ChiliPro
+main: de.chilipro.chililobby.main.Main
+
+commands:
+  build:
+     description: Schaltet den Build-Modus eines Spielers ein oder aus
