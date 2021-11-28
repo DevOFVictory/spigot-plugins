@@ -1,0 +1,786 @@
+1:
+   DisplayName: '&9&lFreezer'
+   UniqueName: 'freezer'
+   Price: 0
+   SuperPower: 'ENEMY_FREEZE'
+   DisplayType: 'ICE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'effectDuration=2'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'effectDuration=4'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'effectDuration=6'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'effectDuration=8'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'effectDuration=10'
+2:
+   DisplayName: '&6&lI&e&lm&6&lk&e&le&6&lr'
+   UniqueName: 'imker'
+   Price: 0
+   SuperPower: 'BEE_ATTACK'
+   DisplayType: 'BEE_NEST'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=1'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=2'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=3'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=4'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=5'
+3:
+   DisplayName: '&4&lHeiler'
+   UniqueName: 'heiler'
+   Price: 0
+   SuperPower: 'HEALING_TREE'
+   DisplayType: 'DARK_OAK_SAPLING'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=4'
+            - 'effectLevel=2'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=8'
+            - 'effectLevel=2'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=12'
+            - 'effectLevel=2'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=16'
+            - 'effectLevel=2'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=20'
+            - 'effectLevel=2'
+4:
+   DisplayName: '&8&lMaurer'
+   UniqueName: 'maurer'
+   Price: 0
+   SuperPower: 'PROTECTION_WALL'
+   DisplayType: 'BRICKS'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=2'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=4'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=6'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=8'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=10'
+5:
+   DisplayName: '&c&lFeuer&6&lSprinter'
+   UniqueName: 'feuersprinter'
+   Price: 500
+   SuperPower: 'FIRE_RUNNER'
+   DisplayType: 'MAGMA_BLOCK'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=2'
+            - 'extinguishDuration=2'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=4'
+            - 'extinguishDuration=2'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=6'
+            - 'extinguishDuration=2'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=8'
+            - 'extinguishDuration=2'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=10'
+            - 'extinguishDuration=2'
+6:
+   DisplayName: '&e&lF&6&le&c&lu&4&le&7&lr&e&ls&c&lp&6&lu&e&lc&6&lk&c&lk&4&le&7&lr'
+   UniqueName: 'feuerspucker'
+   Price: 1000
+   SuperPower: 'FIRE_BALL'
+   DisplayType: 'FIRE_CHARGE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=60'
+            - 'strengh=5'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=55'
+            - 'strengh=5'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=50'
+            - 'strengh=5'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=40'
+            - 'strengh=5'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=35'
+            - 'strengh=5'
+7:
+   DisplayName: '&7&lPfeil&8&lRegnener'
+   UniqueName: 'pfeilregner'
+   Price: 200
+   SuperPower: 'ARROW_RAIN'
+   DisplayType: 'ARROW'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=16'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=25'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=36'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=49'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'amount=64'
+8:
+   DisplayName: '&c&lPyro&f&lTechniker'
+   UniqueName: 'pyrotechniker'
+   Price: 1000
+   SuperPower: 'ENEMY_ROCKET'
+   DisplayType: 'FIREWORK_ROCKET'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'height=1'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'height=2'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'height=3'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'height=4'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+            - 'height=5'
+9:
+   DisplayName: '&6&lWolfsjunge'
+   UniqueName: 'wolfsjunge'
+   Price: 100
+   SuperPower: 'WOLF_ATTACK'
+   DisplayType: 'BONE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=5'
+            - 'strengh=2'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=10'
+            - 'strengh=2'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=15'
+            - 'strengh=2'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=20'
+            - 'strengh=2'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'duration=25'
+            - 'strengh=2'
+10:
+   DisplayName: '&1&lWettergott'
+   UniqueName: 'wettergott'
+   Price: 800
+   SuperPower: 'TORNADO'
+   DisplayType: 'BONE_MEAL'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'duration=4'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'duration=7'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'duration=10'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'duration=14'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'duration=20'
+11:
+   DisplayName: '&4&lM&2&la&4&lg&2&ln&4&le&2&lt'
+   UniqueName: 'magnet'
+   Price: 250
+   SuperPower: 'ENEMY_GRABBLER'
+   DisplayType: 'IRON_INGOT'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=60'
+            - 'radius=15'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=55'
+            - 'radius=15'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=50'
+            - 'radius=15'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=40'
+            - 'radius=15'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=60'
+            - 'radius=35'
+12:
+   DisplayName: '&4&lTHOR'
+   UniqueName: 'thor'
+   Price: 750
+   SuperPower: 'LIGHTNING'
+   DisplayType: 'IRON_AXE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=60'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=55'
+      3: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=50'
+      4: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=40'
+      5: 
+         MinKillsForUpgrade: 50
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=35'
+13:
+   DisplayName: '&3&lHypnotiseur'
+   UniqueName: 'hypnotiseur'
+   Price: 150
+   SuperPower: 'ENEMY_CONFUSE'
+   DisplayType: 'ENDER_EYE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'effectDuration=5'
+            - 'radius=5'
+      2: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'effectDuration=5'
+            - 'radius=5'
+      3: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'effectDuration=5'
+            - 'radius=5'
+      4: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'effectDuration=5'
+            - 'radius=5'
+      5: 
+         MinKillsForUpgrade: 40
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'effectDuration=5'
+            - 'radius=5'
+14:
+   DisplayName: '&7&lNinja'
+   UniqueName: 'ninja'
+   Price: 200
+   SuperPower: 'NINJA'
+   DisplayType: 'WITHER_ROSE'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+      2: 
+         MinKillsForUpgrade: 15
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=4'
+      3: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+      4: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=3'
+      5: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=2'
+15:
+   DisplayName: '&7&lGolem'
+   UniqueName: 'golem'
+   Price: 400
+   SuperPower: 'RAMMING_ATTACK'
+   DisplayType: 'CARVED_PUMPKIN'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'radius=3'
+            - 'damage=2'
+      2: 
+         MinKillsForUpgrade: 15
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=8'
+            - 'radius=3'
+            - 'damage=4'
+      3: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=3'
+            - 'damage=5'
+      4: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=6'
+            - 'radius=5'
+            - 'damage=6'
+      5: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=4'
+            - 'radius=5'
+            - 'damage=7'
+16:
+   DisplayName: '&4&lVampier'
+   UniqueName: 'vampier'
+   Price: 400
+   SuperPower: 'BAT_DISGUISE'
+   DisplayType: 'GHAST_TEAR'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'flyspeed=1'
+            - 'duration=5'
+      2: 
+         MinKillsForUpgrade: 15
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'flyspeed=1'
+            - 'duration=10'
+      3: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'flyspeed=1'
+            - 'duration=15'
+      4: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'flyspeed=1'
+            - 'duration=20'
+      5: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'flyspeed=1'
+            - 'duration=25'
+17:
+   DisplayName: '&2&lEnder&3&lMan'
+   UniqueName: 'enderman'
+   Price: 500
+   SuperPower: 'TELEPORT'
+   DisplayType: 'ENDER_PEARL'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=5'
+            - 'radius=5'
+      2: 
+         MinKillsForUpgrade: 15
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=4'
+            - 'radius=6'
+      3: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=3'
+            - 'radius=7'
+      4: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=2'
+            - 'radius=8'
+      5: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=1'
+            - 'radius=9'
+18:
+   DisplayName: '&6&lSpielerTauscher'
+   UniqueName: 'spielertauscher'
+   Price: 500
+   SuperPower: 'ENEMY_SWAP'
+   DisplayType: 'END_PORTAL_FRAME'
+   Levels:
+      1:
+         MinKillsForUpgrade: 10
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=30'
+            - 'radius=6'
+      2: 
+         MinKillsForUpgrade: 15
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=25'
+            - 'radius=8'
+      3: 
+         MinKillsForUpgrade: 20
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=20'
+            - 'radius=10'
+      4: 
+         MinKillsForUpgrade: 25
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=15'
+            - 'radius=12'
+      5: 
+         MinKillsForUpgrade: 30
+         RegenerationTime: 3
+         Inventory: 'default'
+         Variables:
+            - 'cooldown=10'
+            - 'radius=14'

@@ -1,0 +1,40 @@
+#        _______. __  ___ ____    ____  __  ___  __  .___________..______   ____    ____ .______    #
+#       /       ||  |/  / \   \  /   / |  |/  / |  | |           ||   _  \  \   \  /   / |   _  \   #
+#      |   (----`|  '  /   \   \/   /  |  '  /  |  | `---|  |----`|  |_)  |  \   \/   /  |  |_)  |  #
+#       \   \    |    <     \_    _/   |    <   |  |     |  |     |   ___/    \      /   |   ___/   #
+#   .----)   |   |  .  \      |  |     |  .  \  |  |     |  |     |  |         \    /    |  |       #
+#   |_______/    |__|\__\     |__|     |__|\__\ |__|     |__|     | _|          \__/     | _|       #
+
+# MySQL Konfiguration
+MySQL:
+   host: 'localhost'
+   user: 'skykitpvp'
+   password: 'password'
+   database: 'skykitpvp'
+
+# Stats Wand Schilder Layout (%rank%, %name%, %kills%, %deaths%, %kd%)
+SignLayout:
+   0: '&6&l%rank%'
+   1: '&3%name%'
+   2: '&2%kills%'
+   3: '&4%deaths%'
+
+# Die Namen und Guis der NPCs am Spawn
+NpcNames:
+   Villager: '&e&lKits'
+   Witch: '&d&lItems'
+   Zombie: '&2&lArena'
+   
+DailyChest:
+   Cooldown: 86400000 # Wert in Milisekunden
+   Minimim: 1 # Wert, wieviel aus einer Chest mindenstens rauskommen muss
+   Maximum: 50 # Wert, wieviel aus einer Chest höchstens rauskommen darf
+
+Prefix: '&4[&eSky&6Kit&cPvP&4] '
+FallDamage: false
+JumpPadPower: 3.0
+PvPHeight: 117
+DeathHight: 80
+CoinsPerFrame: 10
+CoinsPerKill: 30
+ItemFrameAmount: 5

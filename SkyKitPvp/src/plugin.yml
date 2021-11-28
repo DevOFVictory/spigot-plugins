@@ -1,0 +1,13 @@
+name: SkyKitPvp
+version: 1.0
+author: DevOFVictory
+main: de.devofvictory.skykitpvp.main.Main
+api-version: 1.13
+
+commands:
+   build:
+      aliases: [buildmode]
+   setup:
+   setkit:
+   stats:
+   spawn:

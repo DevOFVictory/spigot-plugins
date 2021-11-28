@@ -1,0 +1,66 @@
+SpawnLocation:
+   X: -0.5
+   Y: 119
+   Z: 3.5
+   World: 'world'
+   Yaw: 0
+   Pitch: 0
+LootLocation:
+   X: 2
+   Y: 118
+   Z: 5
+   World: 'world'
+
+Stats:
+   Skulls:
+      1:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      2:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      3:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      4:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      5:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+   Signs:
+      1:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      2:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      3:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      4:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
+      5:
+         X: 0
+         Y: 0
+         Z: 0
+         World : 'world'
