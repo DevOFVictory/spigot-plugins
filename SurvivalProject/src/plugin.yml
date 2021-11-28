@@ -1,0 +1,12 @@
+name: SurvialProject
+version: 1.0
+main: de.devofvictory.survivalproject.main.Main
+api-version: 1.14
+
+commands:
+   home:
+   spucken:
+   ride:
+   invsee:
+   publicchest:
+   ec:

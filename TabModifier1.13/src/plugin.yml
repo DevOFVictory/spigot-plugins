@@ -1,0 +1,9 @@
+name: TabModifier
+version: 1.0
+author: DevOFVictory
+
+main: de.devofvictory.thf.main.Main
+
+commands:
+  tabmodifier:
+    description: Main Command of the Plugin
