@@ -67,6 +67,12 @@ Dieses Plugin behebt einige Sicherheitslücken von Minecraft und Spigot und mach
 #### ServerHelp2000 ⭐
 Lässt einen neuen Hilfe Befehl implementieren, der nütlich für Spieler ist.
 
+#### SkyKitPvp ⭐⭐⭐⭐⭐
+Dieses Plugin habe ich für einen Kunden auf fiverr programmiert. Es ist ein vollständiger Spielmodus, basierend auf KitPvp, aber mit unterschiedlichen Helden, die Fähigkeiten haben.
+
+#### SkyKitPvp_Eco ⭐⭐⭐
+Dieses Plugin ist eine Dependency von von SkyKitPvp. Es ist das Geld und Währungssystem für den Spielmodus, um die Helden freizuschalten.
+
 #### SoulboundEnchantment ⭐⭐⭐⭐⭐
 Dieses Plugin habe ich für einen Kunden auf fiverr programmiert. Es fügt eine neue Verzauberung hinzu, mit der es ermöglicht werden kann, dass nur ein bestimmer Spieler das Item nutzen kann.
 
