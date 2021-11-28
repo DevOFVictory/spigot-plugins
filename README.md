@@ -32,7 +32,7 @@ Es volles funktionsfähiges Lobby System für den Lobby Server mit allen nötige
 Hiermit kann die Spielzeit auf einem Server von Spielern angezeigt werden.
 
 #### EffectGui ⭐⭐⭐⭐
-Dieses Plugin habe ich für einen Kunden auf fiverr programmiert. Es lassen sich alle Effekte über ein GUI ansehen, kaufen und auflebeln.
+Dieses Plugin habe ich für einen Kunden auf fiverr programmiert. Es lassen sich alle Effekte über ein GUI ansehen, kaufen und aufleveln.
 
 #### EscapeRoom ⭐
 Ein kleines Plugin, um ein paar Dinge in einem eigenen EscapeRoom zu kontrollieren.
